@@ -7,4 +7,5 @@ number3 = eval(input("Enter the third number :"))
 average = (number1 + number2 + number3) / 3
 
 # Display result
-print("The average of", number1, number2, number3, "is", average)
+print("The average of", number1, number2, number3,
+    "is", average)
