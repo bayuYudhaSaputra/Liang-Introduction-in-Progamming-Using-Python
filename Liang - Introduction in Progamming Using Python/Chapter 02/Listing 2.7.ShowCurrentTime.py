@@ -2,7 +2,7 @@ import time
 
 currentTime = time.time() # Get current time
 
-# Obtain the total seconds since midnaight Jan 1 1970
+# Obtain the total seconds since midnight Jan 1 1970
 totalSeconds = int(currentTime)
 
 # Get current second
