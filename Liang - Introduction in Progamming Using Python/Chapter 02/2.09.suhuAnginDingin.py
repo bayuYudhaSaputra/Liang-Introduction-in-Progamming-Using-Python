@@ -15,7 +15,7 @@ twc = 35.74 + 0.6215 * ta - 35.75 * v ** 0.16 + 0.4275 * ta * v ** 0.6
 
 # Langkah 3. Tampilkan hasil perhitungan indeks wind-chill.
 print("=========================================")
-print("Indeks wid-chill dengan,")
+print("Indeks wind-chill dengan,")
 print("-----------------------------------------")
 print("Suhu udara luar", ta, "derajat fahrenheit")
 print("kecepatan udara", v, "mil per jam")
