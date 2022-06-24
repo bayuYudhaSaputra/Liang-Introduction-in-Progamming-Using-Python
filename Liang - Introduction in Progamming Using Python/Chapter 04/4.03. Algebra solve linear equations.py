@@ -23,12 +23,14 @@ determinan = a * d - b * c
 
 # Periksa nilai determinan
 if determinan == 0 :
+    # determinan = 0
     print("Sistem persamaan linier : \n" + \
         "\t" + str(a) + "x + " + str(b) + "y = " + str(e) + "\n" + \
          "\t" + str(c) + "x + " + str(d) + "y = " + str(f) + "\n" + \
         "Tidak mempunyai penyelesaian."
     )
 else :
+    # determinan tidak sama dengan 0
     x = (e * d - b * f) / a * d - b * c
     y = (a * f - e * c) / a * d - b * c
     print("Penyelesaian sistem persamaan linier \n" + \
