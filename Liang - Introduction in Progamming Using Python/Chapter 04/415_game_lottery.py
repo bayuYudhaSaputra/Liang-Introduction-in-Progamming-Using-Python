@@ -5,10 +5,10 @@ import random
 
 noLotre = random.randint(100,999)
 # Ekstrak no Lotre
-noLotreDigitRatusan = noLotre // 100
+noLotreRatusan = noLotre // 100
 sisaNoLotreRatusan = noLotre % 100
 # -----------------------------------------------
-noLotreDigitPuluhan = sisaNoLotreRatusan // 10
+noLotrePuluhan = sisaNoLotreRatusan // 10
 # -----------------------------------------------
 noLotreSatuan = sisaNoLotreRatusan % 10
 # -----------------------------------------------
@@ -25,7 +25,18 @@ tebakanSatuan = sisaRatusan % 10
 
 
 print("angka lotere yang muncul adalah :", noLotre)
+# ketiga bilangan dan urutan tepat
 if tebakan == noLotre:
     print("Tebakan anda tepat : Anda mendapat USD 10.000")
+# ketiga bilangan tepat tetapi urutannya tidak tepat
+elif (noLotreRatusan == tebakanPuluhan and \
+    noLotreRatusan == tebakanSatuan and \
+    noLotrePuluhan == tebakanRatusan and \
+    noLotrePuluhan == tebakanSatuan and \
+    noLotreSatuan == tebakanRatusan and \
+    noLotreSatuan == tebakanPuluhan
+    ):
+    print("Tebakan angka anda tepat tetapi urutannya tidak tepat : Anda mendapat USD 3.000")
+# ketiga bilangan tidak tepat
 else:
     print("Maaf.. tebakan anda tidak ada yang tepat!!")
