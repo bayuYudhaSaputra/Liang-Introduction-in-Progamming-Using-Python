@@ -37,6 +37,18 @@ elif (noLotreRatusan == tebakanPuluhan and \
     noLotreSatuan == tebakanPuluhan
     ):
     print("Tebakan angka anda tepat tetapi urutannya tidak tepat : Anda mendapat USD 3.000")
+# ada tepat satu digit yang sama
+elif (noLotreRatusan == tebakanRatusan or \
+    noLotreRatusan == tebakanPuluhan or \
+    noLotreRatusan == tebakanSatuan or \
+    noLotrePuluhan == tebakanRatusan or \
+    noLotrePuluhan == tebakanPuluhan or \
+    noLotrePuluhan == tebakanSatuan or \
+    noLotreSatuan == tebakanRatusan or \
+    noLotreSatuan == tebakanPuluhan or \
+    noLotreSatuan == tebakanSatuan 
+    ):
+    print("Hanya satu angka yang tepat : Anda mendapat hadian USD 1.000")
 # ketiga bilangan tidak tepat
 else:
     print("Maaf.. tebakan anda tidak ada yang tepat!!")
