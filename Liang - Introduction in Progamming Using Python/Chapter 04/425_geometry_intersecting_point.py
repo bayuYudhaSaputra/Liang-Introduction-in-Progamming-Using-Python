@@ -1,9 +1,9 @@
 # =======================================================
-# Menentukan Perpotongan Dua Garis Dalam Bidang Cartesis
+# Menentukan Perpotongan Dua Garis Dalam Bidang Cartesius
 # =======================================================
 
 print("=================================================================== \n",
-    "Menentukan Perpotongan Dua Garis Dalam Bidang Cartesis \n",
+    "Menentukan Perpotongan Dua Garis Dalam Bidang Cartesius \n",
     "--------------------------------------------------------------------"
     )
 # Input dua titik yang melalui persamaan garis 1
