@@ -1,8 +1,8 @@
 i = 1
 kilogram1 = 1
-pound2 = 1
+pound2 = 20
 
-print("||", "No.", "|",format("kilogram","8s"), "|", format("Pounds","8s"),
+print("||", "No.", "|",format("Kilogram","8s"), "|", format("Pounds","8s"),
     "||", format("Pounds","8s"), "|", format("Kilogram","8s"), "||"
     )
 
@@ -14,6 +14,6 @@ while i < 200:
         )
     i += 1
     kilogram1 += 1
-    pound2 += 1
+    pound2 += 5
 
     
