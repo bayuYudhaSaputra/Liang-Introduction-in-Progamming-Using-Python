@@ -8,4 +8,4 @@ while i <= 1.0:
     i = i + 0.01
 
 # Display result
-print("The sum is", sum)
+print("\n The sum is", sum, "\n")
