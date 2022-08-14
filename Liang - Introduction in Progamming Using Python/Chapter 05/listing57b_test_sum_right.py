@@ -1,0 +1,12 @@
+# Initialize sum
+sum = 0
+
+# Add 0.01, 0.02, ..., 0.99, 1 to sum
+i = 0.01
+
+for count in range(100):
+    sum += i
+    i = i + 0.01
+
+# Display result
+print("\n The sum is", sum, "\n")
