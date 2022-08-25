@@ -1,6 +1,8 @@
 i = 50
 jumlah = 0
 
+# iterasi dimulai dari (1 / 50) + (1 / 49) + ... + (1 / 2) + 1
+# agar terhindar dari kesalahan pembulatan
 while i > 0:
     suku = 1 / i
     jumlah += suku
