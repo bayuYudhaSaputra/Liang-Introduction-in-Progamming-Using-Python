@@ -13,7 +13,6 @@ else:
     bungaPerBulan = bunga / 1200
     pengaliBunga = (1 + bungaPerBulan)
     jumlahTabungan = 0
-    
     for i in range(1, jangkaWaktu + 1):
         cicilanPerBulan *= pengaliBunga
         jumlahTabungan += cicilanPerBulan
