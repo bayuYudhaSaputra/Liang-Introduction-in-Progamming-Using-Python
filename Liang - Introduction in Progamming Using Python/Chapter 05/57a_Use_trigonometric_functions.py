@@ -8,6 +8,6 @@ print("-----------------------------------\n")
 for i in range(1,37):
     nilaiSin = format(math.sin(i * 10 * math.pi / 180),"7.4f")
     nilaiCos = format(math.cos(i * 10 * math.pi / 180),"7.4f")
-    print("|", format(i, "6d"), "|", nilaiSin, "|", nilaiCos, "|")
+    print("|", format(i * 10, "6d"), "|", nilaiSin, "|", nilaiCos, "|")
 print("-----------------------------------\n")
     
