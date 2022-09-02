@@ -1,4 +1,3 @@
-from cmath import cos
 import math
 
 print("\n===================================")
