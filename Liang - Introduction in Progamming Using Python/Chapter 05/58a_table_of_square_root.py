@@ -13,6 +13,6 @@ print("------------------------------")
 while indeks <= 10:
     number = 2 * indeks
     squareRoot = math.sqrt(number)
-    print("||", format(number,"7.3f"), "  |  " , format(squareRoot, "10.5f"), "||")
+    print("||", format(number,"7d"), "  |  " , format(squareRoot, "10.5f"), "||")
     indeks += 1
 print("==============================\n")
