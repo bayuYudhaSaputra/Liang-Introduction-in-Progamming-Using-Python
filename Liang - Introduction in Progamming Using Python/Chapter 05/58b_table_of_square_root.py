@@ -11,6 +11,6 @@ print("------------------------------")
 for i in range(0,11):
     number = 2 * i
     squareRoot = math.sqrt(number)
-    print("||", format(number,"7.3f"), "  |  " , format(squareRoot, "10.5f"), "||")
+    print("||", format(number,"7d"), "  |  " , format(squareRoot, "10.5f"), "||")
 
 print("==============================\n")
