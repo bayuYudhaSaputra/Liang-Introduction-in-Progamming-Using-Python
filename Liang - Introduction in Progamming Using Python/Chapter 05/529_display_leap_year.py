@@ -7,5 +7,6 @@ for tahun in range(2001, 2101):
         print(tahun, end = ' ')
         count += 1
         if count % 10 == 0:
+            # setiap baris hanya berisi 10 kolom
             print("\n")
 print("\n------------------------------------------------\n")

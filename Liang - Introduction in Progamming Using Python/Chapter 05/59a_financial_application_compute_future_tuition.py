@@ -1,5 +1,3 @@
-from re import I
-
 sppTahun0 = 10000
 
 i = 0
