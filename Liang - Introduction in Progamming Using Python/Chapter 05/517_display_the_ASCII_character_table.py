@@ -1,7 +1,8 @@
-for i in range(33,127):
-    kodeAscii = chr(i)
-    print(kodeAscii)
-    count = 1
-    if count % 10 == 0:
-        print("\n")
-        count += 1
+banyakBaris = 9
+for i in range(0,banyakBaris + 1):
+    
+    for j in range(i, 11):
+        kodeAscii = chr(32 + j)
+        print(kodeAscii, end = '  ')
+   
+    print("\n")
