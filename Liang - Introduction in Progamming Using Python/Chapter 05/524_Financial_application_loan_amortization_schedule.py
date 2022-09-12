@@ -20,6 +20,6 @@ for i in range(1, jangkaWaktuPinjaman * 12 + 1):
     sisaPokokBulanan = cicilanBulanan - nominalBungaBulanan
     pokokpinjaman = pokokPinjaman - sisaPokokBulanan
 
-    print("|", format(i, "9d"), "|", format(nominalBungaBulanan, "13.2f"), "|", format(sisaPokokBulanan, "24.2f"), "|", format(pokokPinjaman, "14.2f"))
+    print("|", format(i, "9d"), "|", format(nominalBungaBulanan, "13.2f"), "|", format(sisaPokokBulanan, "24.2f"), "|", format(pokokPinjaman, "14.2f"), "|")
     
 print("--------------------------------------------------------------------------------------------------")
