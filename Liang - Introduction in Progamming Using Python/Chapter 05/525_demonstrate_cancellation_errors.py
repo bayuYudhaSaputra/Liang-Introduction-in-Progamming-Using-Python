@@ -1,4 +1,4 @@
-i = 50
+i = 50000
 jumlah = 0
 
 # iterasi dimulai dari (1 / 50) + (1 / 49) + ... + (1 / 2) + 1
