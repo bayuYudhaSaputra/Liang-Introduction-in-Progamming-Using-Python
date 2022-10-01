@@ -5,6 +5,7 @@ def getPentagonalNumbers(n):
 
 # define main function
 def main():
+    print("\n----------------------------------------------------------------")
     count = 0
     for n in range(1,100):
         print(format(getPentagonalNumbers(n),"6.0f"), end = '')
@@ -13,5 +14,5 @@ def main():
         if count % 10 == 0:
             # 10 numbers per line
             print("\n")
-    
+    print("\n-------------------------------------------------------------\n")
 main() # invoke main function
