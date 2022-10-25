@@ -15,3 +15,5 @@ def main():
         phi = 4 * numberSeries
         print("||", format(n, "2d"), "|", format(phi, "6.3f"), "||")
     print("===============================================")
+
+main()

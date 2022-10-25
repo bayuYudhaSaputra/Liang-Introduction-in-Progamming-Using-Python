@@ -1,17 +1,14 @@
 # define character function
 
-numberPerLine = 10
-i = 0
-index_ASCII_code = 48
-
-while i < 8:
-    j = 0
-    while j < numberPerLine:
-        print( format(str(chr(index_ASCII_code)),"4s"), end = " ")
-        j += 1
-        index_ASCII_code += 1
-    print("\n")
-    i += 1
-
-
+def printChars(ch1, ch2, numberPerLine):
     
+    if ch1 < ch2: # jika nilai ch1 < ch2
+        while ch1 < ch2:
+            j = 0
+            while j < numberPerLine:
+                print(format(str(chr(ch1)),"4s"), end = " ")
+                j += 1
+                ch1 += 1
+            print("\n")
+        
+printChars(50, 90, 10)
