@@ -9,8 +9,10 @@ def printChars(ch1, ch2, numberPerLine):
                 print(format(str(chr(ch1)),"4s"), end = " ")
                 j += 1
                 ch1 += 1
+                if ch1 > ch2:
+                    break
             print("\n")
     else: # jika ch1, ch2 dan numberPerLine tidak memenuhi syarat maka muncul teks berikut
         print("ch1 harus kurang dari ch2 dan numberPerLine harus lebih dari 0")
         
-printChars(48, 100, 10)
+printChars(49, 90, 10)
