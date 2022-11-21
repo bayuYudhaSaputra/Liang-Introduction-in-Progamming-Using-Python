@@ -140,7 +140,6 @@ def computeTax(status, taxableIncome):
         return format(headOfHouseHoldTax(taxableIncome), "16.2f")
         # mengembalikan nilai fungsi marriedSeparatelyTax()
 
-
 # Define main
 def main():
     print("===============================================================================================================================")
