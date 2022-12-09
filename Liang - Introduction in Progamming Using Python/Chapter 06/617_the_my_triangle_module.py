@@ -17,4 +17,11 @@ def isValid(side1, side2, side3):
     else:
         return area(side1, side2, side3)
 
-print(isValid(1, 1, 10))
+def main():
+    side1 = eval(input("Enter the length of the first side of the triangle : "))
+    side2 = eval(input("Enter the length of the second side of the triangle : "))
+    side3 = eval(input("Enter the length of the third side of the triangle : "))
+    
+    print(isValid(side1, side2, side3))
+
+main()
