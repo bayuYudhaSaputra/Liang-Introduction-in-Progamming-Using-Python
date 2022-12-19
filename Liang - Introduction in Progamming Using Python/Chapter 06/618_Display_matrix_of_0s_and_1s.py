@@ -1,5 +1,6 @@
 import random
 
+# define function to create matrix
 def printMatrix(numberOfColumn, numberOfRow, endPointRandom):
     for i in range(1, numberOfColumn + 1):
         for j in range(1, numberOfRow + 1):
