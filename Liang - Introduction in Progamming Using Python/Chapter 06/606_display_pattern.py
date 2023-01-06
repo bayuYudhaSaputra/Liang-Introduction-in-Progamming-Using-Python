@@ -4,7 +4,8 @@ def displayPattern(n):
     # membuat kolom
         for numRow in range(numColomn, 0, -1):
         # menampilkan bilangan dalam baris
-            print(numRow, end = " ")
+            print(numRow, end = ' ')
+            
         print(" ")
     return "" # agar tidak mengembalikan nilai none
 
